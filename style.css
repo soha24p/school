@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.banner {
+    height: 100vh;
+    background-image: url("https://hea.ie/assets/uploads/2017/04/DCU-1000x500.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 25%;
+
+}
+
+li {
+    color: white;
+    font-size: 22px;
+    list-style: none;
+}
+
+
+ul {
+    display: flex;
+    justify-content: right;
+    gap: 50px;
+}
+
+
+.navbar {
+    padding: 20px;
+
+}
+.intro {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0% 10%;
+    color: white;
+
+
+}
+
+
+
+.intro h1 {
+   font-size: 50px; 
+}
+
+.intro button {
+     background-color: #ffb62e;
+     padding: 10px;
+     font-size: 20px;
+     color: white;
+     border: 2px solid white;
+     border-radius: 25px;   
+}
+
+
+/* Course section */
+
+.course {
+    background-color: bisque;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+.courses {
+    display: flex;
+    gap: 3%;
+    padding: 5% 10%;
+}
+
+
+.course-section{
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.course:hover {
+    color: red;
+}
+
+
+/* facility section */
+
+.facility {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    width: 30%;
+    border: 1px solid black;
+}
+
+
+.facilities {
+    display: flex;
+    gap: 3%;
+    padding: 5% 10%;
+}
+
+
+.facility-section{
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.facility:hover {
+    color: red;
+}
+
+.facility img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+
+}
+
+/* Enroll section */
+
+.enroll-section {
+    margin: 0% 15% 10% 15%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0% 10%;
+    gap: 20px;
+    color: white;
+    background-image: url("/School/images/grad.jpg");
+    background-position:center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+
+
+
+}.enroll-section button {
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 6px;
+    border-radius: 10px;
+    cursor: pointer;
+
+
+}
+
+.enroll-section button:hover {
+    color: red;
+    border: 1px solid red;
+
+}
+
+/* footer section */
+.footer {
+    background-color: #EC9217;
+    display: flex;
+    gap: 10%;
+    height: 100vh;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 0% 10%;
+    color: white;
+}
+
+
+.right-footer {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+
+}
+
+.right-footer input {
+
+    border-radius: 5px;
+    height: 35px;
+    border: 2px solid white;
+    outline-color:aliceblue;
+    margin: 10px;
+    padding: 15px;
+    background-color: transparent;
+}
+
+.right-footer textarea {
+
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 55px;
+    outline-color:aliceblue;
+    color:rgb(120, 120, 120);
+    padding: 15px;
+    margin: 10px;
+    background-color: transparent;
+}
+
+
+input::placeholder {
+
+    color: white;
+}
+
+
+textarea::placeholder {
+
+    color: white;
+}
+
+
+.icon-container img {
+
+    width: 20px;
+}
